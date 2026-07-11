@@ -134,3 +134,23 @@ Attrition is the primary business problem that the organization wants to solve. 
 - DailyRate, HourlyRate, and MonthlyRate are internal organizational metrics and should not automatically be interpreted as employee wages without supporting documentation.
 
 
+## 6.5 Performance & Behavioral Metrics
+
+| Column | Data Type | Category | Business Meaning | Importance | Analyst Notes |
+|---------|-----------|----------|------------------|------------|---------------|
+| JobSatisfaction | Ordinal (1–4) | Employee Satisfaction | Represents the employee's overall satisfaction with their job. | High | Lower job satisfaction may be associated with higher attrition. Analyze this relationship using the data before drawing conclusions. |
+| EnvironmentSatisfaction | Ordinal (1–4) | Employee Satisfaction | Measures the employee's satisfaction with the workplace environment. | High | A positive work environment can influence employee retention. |
+| JobInvolvement | Ordinal (1–4) | Employee Engagement | Indicates how engaged the employee is in their daily work activities. | High | Employees with low job involvement may be more likely to leave the organization. |
+| RelationshipSatisfaction | Ordinal (1–4) | Employee Satisfaction | Represents satisfaction with relationships at work, including colleagues and managers. | Medium | Healthy workplace relationships can contribute to employee retention. |
+| WorkLifeBalance | Ordinal (1–4) | Employee Well-being | Represents the employee's perception of their work-life balance. | High | Poor work-life balance is frequently studied as a factor influencing attrition. |
+| PerformanceRating | Ordinal (3–4) | Performance | Represents the manager's evaluation of employee performance. | Medium | Useful for exploring whether performance ratings differ between employees who stay and those who leave. |
+
+---
+
+### Key Takeaways
+
+- Satisfaction-related variables measure different aspects of the employee experience and should not be treated as interchangeable.
+- WorkLifeBalance and JobSatisfaction are commonly investigated in HR analytics because they may influence employee retention.
+- PerformanceRating should not automatically be interpreted as a cause of attrition; its relationship with attrition must be verified through analysis.
+
+
