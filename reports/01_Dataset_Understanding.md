@@ -113,3 +113,24 @@ Attrition is the primary business problem that the organization wants to solve. 
 - EmployeeCount is expected to be a constant column and will likely be removed during data cleaning.
 
 
+## 6.4 Compensation & Financial Variables
+
+| Column | Data Type | Category | Business Meaning | Importance | Analyst Notes |
+|---------|-----------|----------|------------------|------------|---------------|
+| MonthlyIncome | Numerical | Compensation | Represents the employee's monthly salary. Compensation plays an important role in employee satisfaction and retention. | High | One of the most important financial variables for attrition analysis. |
+| DailyRate | Numerical | Compensation | Represents an internally assigned daily rate used by the organization. | Medium | The exact business definition is not provided by IBM. Analyze carefully and avoid assuming it is the employee's daily salary. |
+| HourlyRate | Numerical | Compensation | Represents an internally assigned hourly rate. | Medium | Do not interpret this as the employee's hourly wage unless supported by documentation. |
+| MonthlyRate | Numerical | Compensation | Represents an internal monthly rate maintained by the organization. | Medium | Different from MonthlyIncome. Should not be confused with salary. |
+| PercentSalaryHike | Numerical | Compensation | Represents the percentage increase in salary received during the latest performance cycle. | High | Useful for understanding whether salary growth influences employee retention. |
+| StockOptionLevel | Ordinal (0–3) | Compensation | Represents the level of company stock options granted to the employee. Higher levels generally indicate greater long-term financial benefits. | High | Employees with higher stock options may have stronger incentives to remain with the company. |
+
+---
+
+### Key Takeaways
+
+- MonthlyIncome is expected to be one of the strongest predictors of employee attrition.
+- Salary growth (PercentSalaryHike) may influence employee motivation and long-term retention.
+- StockOptionLevel represents long-term financial incentives rather than direct salary.
+- DailyRate, HourlyRate, and MonthlyRate are internal organizational metrics and should not automatically be interpreted as employee wages without supporting documentation.
+
+
