@@ -154,3 +154,25 @@ Attrition is the primary business problem that the organization wants to solve. 
 - PerformanceRating should not automatically be interpreted as a cause of attrition; its relationship with attrition must be verified through analysis.
 
 
+## 6.6 Tenure & Career History
+
+| Column | Data Type | Category | Business Meaning | Importance | Analyst Notes |
+|---------|-----------|----------|------------------|------------|---------------|
+| OverTime | Categorical (Yes/No) | Work Pattern | Indicates whether the employee regularly works overtime. | High | Overtime may be associated with increased workload, stress, and reduced work-life balance. Its relationship with attrition will be verified during analysis. |
+| TotalWorkingYears | Numerical | Career History | Represents the employee's total years of professional work experience across all organizations. | High | Useful for comparing attrition among employees with different experience levels. |
+| YearsAtCompany | Numerical | Organizational Tenure | Represents the number of years the employee has worked in the current organization. | High | Helps determine whether new or long-serving employees are more likely to leave. |
+| YearsInCurrentRole | Numerical | Career Progression | Represents the number of years the employee has remained in their current job role. | Medium | Employees who remain in the same role for long periods may have different career expectations and engagement levels. |
+| YearsSinceLastPromotion | Numerical | Career Progression | Represents the number of years since the employee last received a promotion. | High | Longer periods without promotion may influence employee motivation and retention. |
+| YearsWithCurrManager | Numerical | Management Relationship | Represents the number of years the employee has worked under their current manager. | Medium | Stable manager-employee relationships may influence job satisfaction and retention. |
+| NumCompaniesWorked | Numerical | Career History | Represents the total number of companies the employee has worked for before joining the current organization. | Medium | May indicate career stability or frequent job changes. |
+| TrainingTimesLastYear | Numerical | Learning & Development | Represents the number of training programs attended during the previous year. | Medium | Useful for analyzing whether employee development opportunities are associated with retention. |
+| StandardHours | Numerical (Constant) | Administrative | Represents the organization's standard working hours. | Low | Expected to contain a single constant value for all employees. If confirmed during data cleaning, this column will be removed because it provides no analytical value. |
+
+---
+
+### Key Takeaways
+
+- Career progression variables help understand whether promotion opportunities and role growth are associated with employee retention.
+- Overtime is an important work-pattern variable that may influence employee well-being and attrition.
+- Training participation provides insight into employee development initiatives.
+- StandardHours is expected to contain only one unique value and will likely be removed during data cleaning because it does not contribute meaningful information.
