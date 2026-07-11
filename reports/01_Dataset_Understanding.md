@@ -89,3 +89,27 @@ Attrition is the primary business problem that the organization wants to solve. 
 - Demographic variables help understand whether employee background characteristics are associated with attrition.
 - Importance ratings are based on business knowledge and will be validated during Exploratory Data Analysis (EDA).
 - Variables such as Over18 may later be removed if they contain only a single unique value.
+
+
+## 6.3 Job Role & Organizational Structure
+
+| Column | Data Type | Category | Business Meaning | Importance | Analyst Notes |
+|---------|-----------|----------|------------------|------------|---------------|
+| Department | Categorical | Organizational Structure | Represents the business unit where the employee works (e.g., Research & Development, Sales, Human Resources). Different departments may have different work environments, responsibilities, and attrition rates. | High | Useful for comparing attrition across departments and identifying departments requiring retention strategies. |
+| JobRole | Categorical | Organizational Structure | Represents the employee's specific job designation within the organization. Different job roles may experience different workloads, career growth opportunities, and satisfaction levels. | High | One of the most important variables for understanding which job roles experience higher employee turnover. |
+| JobLevel | Ordinal (1–5) | Organizational Structure | Indicates the employee's hierarchical level within the organization. Higher job levels generally correspond to greater responsibility and experience. | High | Useful for analyzing attrition across different seniority levels. Treat as an ordinal variable because the levels have a natural order. |
+| EmployeeNumber | Identifier | Employee Identifier | Unique identification number assigned to each employee. Used only to uniquely identify records. | Low | This column has no business meaning for analysis and should be excluded from statistical analysis and visualizations. |
+| BusinessTravel | Categorical | Work Characteristics | Indicates how frequently the employee travels for business (Non-Travel, Travel Rarely, Travel Frequently). Frequent travel may affect work-life balance and job satisfaction. | High | Important predictor because business travel can influence stress levels and employee retention. |
+| EmployeeCount | Numerical (Constant) | Administrative | Represents the employee count recorded in the dataset. | Low | Expected to contain only one unique value for every record. If confirmed during data cleaning, this column will be removed because it provides no analytical value. |
+
+---
+
+### Key Takeaways
+
+- Department and JobRole help identify which parts of the organization experience the highest employee attrition.
+- JobLevel provides insight into whether junior or senior employees are more likely to leave.
+- BusinessTravel may influence employee satisfaction due to travel demands.
+- EmployeeNumber is only an identifier and should never be used as a predictive feature.
+- EmployeeCount is expected to be a constant column and will likely be removed during data cleaning.
+
+
