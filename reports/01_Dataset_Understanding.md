@@ -55,3 +55,37 @@ The dataset contains demographic information, job-related attributes, compensati
 
 These variables provide a comprehensive view of employee characteristics that may be associated with employee attrition.
 
+# 6. Enhanced Data Dictionary
+
+## 6.1 Target Variable
+
+| Column | Data Type | Category | Business Meaning | Importance | Analyst Notes |
+|---------|-----------|----------|------------------|------------|---------------|
+| Attrition | Categorical (Yes/No) | Target Variable | Indicates whether an employee has left the organization. This is the primary outcome that the company wants to understand and reduce. | High | This is the dependent (target) variable. All analyses in this project aim to identify the factors associated with employee attrition. |
+
+### Why is Attrition the Target Variable?
+
+Attrition is the primary business problem that the organization wants to solve. Every other feature in the dataset is analyzed to understand whether it has any relationship with employees leaving the company.
+
+---
+
+## 6.2 Demographic Variables
+
+| Column | Data Type | Category | Business Meaning | Importance | Analyst Notes |
+|---------|-----------|----------|------------------|------------|---------------|
+| Age | Numerical | Demographics | Represents the employee's age, which may influence career stage, work priorities, and likelihood of leaving the organization. | High | Useful for analyzing attrition across different age groups. |
+| Gender | Categorical | Demographics | Indicates the employee's gender. It can be analyzed to check whether attrition patterns differ across genders. | Medium | Analyze objectively. Do not assume gender causes attrition without evidence. |
+| MaritalStatus | Categorical | Demographics | Indicates whether the employee is Single, Married, or Divorced. Family responsibilities may influence retention decisions. | High | Frequently analyzed in HR analytics because personal responsibilities can affect job decisions. |
+| Education | Ordinal (1–5) | Demographics | Represents the employee's highest education level. Higher education may influence career expectations and promotion opportunities. | Medium | Treat as an ordinal variable because the levels have a natural order. |
+| EducationField | Categorical | Demographics | Represents the employee's field of study (e.g., Life Sciences, Medical, Marketing). Different educational backgrounds may be associated with different job roles and career paths. | Medium | Useful for comparing attrition among educational disciplines. |
+| DistanceFromHome | Numerical | Demographics | Represents the employee's commuting distance between home and workplace. Long commuting distances may reduce work-life balance and increase attrition risk. | High | Strong candidate predictor because commuting burden often influences employee satisfaction. |
+| Over18 | Categorical (Y/N) | Demographics | Indicates whether the employee is over 18 years of age. | Low | Expected to contain only one value ("Y"). If confirmed during data cleaning, it will be removed because it provides no analytical value. |
+
+---
+
+## Key Takeaways
+
+- Attrition is the target variable for the entire project.
+- Demographic variables help understand whether employee background characteristics are associated with attrition.
+- Importance ratings are based on business knowledge and will be validated during Exploratory Data Analysis (EDA).
+- Variables such as Over18 may later be removed if they contain only a single unique value.
