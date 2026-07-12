@@ -89,7 +89,7 @@ The following relationships were analyzed:
 
 - Employees working overtime showed comparatively higher attrition.
 - Research & Development recorded the highest attrition count among departments.
-- Sales Executive recorded the highest attrition among job roles.
+- Laboratory Technician recorded the highest attrition among job roles.
 - Single employees showed comparatively higher attrition than married and divorced employees.
 - Employees who travelled rarely recorded higher attrition than other travel categories.
 - Employees with lower monthly income and fewer total working years showed comparatively higher attrition.
