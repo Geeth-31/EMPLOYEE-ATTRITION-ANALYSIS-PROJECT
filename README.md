@@ -2,158 +2,77 @@
 
 ## Project Overview
 
-Employee attrition is one of the major challenges faced by organizations as it directly impacts productivity, recruitment costs, and business performance. This project analyzes employee attrition using the IBM HR Analytics dataset to identify the key factors contributing to employee turnover.
-
-The project covers the complete data analytics workflow, including data cleaning, exploratory data analysis (EDA), KPI analysis, and the development of an interactive Tableau dashboard for business decision-making.
+This project analyzes employee attrition using the IBM HR Employee Attrition dataset. The objective is to identify the key factors contributing to employee turnover through data cleaning, exploratory data analysis (EDA), KPI analysis, and an interactive Tableau dashboard. The insights obtained can help organizations improve employee retention and support HR decision-making.
 
 ---
 
-## Project Objectives
+## Objectives
 
 - Understand employee attrition patterns.
-- Clean and preprocess HR data.
-- Perform exploratory data analysis (EDA).
-- Generate business KPIs.
+- Perform data cleaning and preprocessing.
+- Conduct exploratory data analysis.
+- Analyze key business KPIs.
 - Develop an interactive Tableau dashboard.
-- Provide actionable business insights and recommendations.
+- Provide business insights and recommendations.
 
 ---
 
-## Dataset
-
-**Dataset:** IBM HR Employee Attrition Dataset
-
-The dataset contains employee demographic information, job-related attributes, salary details, satisfaction levels, and attrition status.
-
----
-
-## Tools & Technologies
+## Tools and Technologies
 
 - Python
-- Jupyter Notebook
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- Jupyter Notebook
 - Tableau Public
-- Git
-- GitHub
+- Git & GitHub
 
 ---
 
 ## Project Structure
 
-```text
-EMPLOYEE-ATTRITION-ANALYSIS-PROJECT/
-│
-├── README.md
-├── LICENSE
-├── requirements.txt
-│
-├── Data/
-│   ├── Raw/
-│   └── Processed/
-│
-├── Notebooks/
-│   ├── 01_Data_Cleaning.ipynb
-│   ├── 02_Exploratory_Data_Analysis.ipynb
-│   └── 03_KPI_Analysis.ipynb
-│
-├── Dashboard/
-│   ├── Employee_Attrition_Dashboard.twbx
-│   └── Dashboard_Preview.png
-│
-├── Reports/
-│   ├── 01_Dataset_Understanding.md
-│   ├── 02_Data_Cleaning_Report.md
-│   ├── 03_EDA_Report.md
-│   ├── 04_Dashboard_Report.md
-│   ├── 05_Business_Insights.md
-│   └── 06_Business_Recommendations.md
-│
-└── Images/
-```
+(keep the folder structure exactly as we wrote earlier)
 
 ---
 
-# Project Workflow
+## Dashboard Preview
 
-1. Dataset Understanding
-2. Data Cleaning
-3. Exploratory Data Analysis
-4. KPI Analysis
-5. Tableau Dashboard Development
-6. Business Insights
-7. Business Recommendations
-
----
-
-# Dashboard Preview
-
-> Add the screenshot below after uploading `Dashboard/Dashboard_Preview.png` to GitHub.
-
-```markdown
 ![Dashboard Preview](Dashboard/Dashboard_Preview.png)
-```
 
 ---
 
-# Interactive Tableau Dashboard
+## Tableau Dashboard
 
-View the live interactive dashboard here:
-
-**Tableau Public:**
+Interactive Dashboard:
 
 https://public.tableau.com/app/profile/geeth.gagan.kumar.reddy.gujji/viz/EmployeeAttritionAnalysisDashboard_17838850554550/Dashboard1?publish=yes
 
 ---
 
-# Key Business Insights
+## Key Findings
 
-- Research & Development department experiences the highest employee attrition.
-- Laboratory Technicians have the highest attrition among job roles.
-- Employees working overtime are more likely to leave the organization.
-- Younger employees exhibit higher attrition than older employees.
-- Employees with lower monthly income show higher attrition.
-- Lower job levels experience greater employee turnover.
-- Business travel influences employee attrition.
-- Job satisfaction and environment satisfaction impact employee retention.
-- Poor work-life balance contributes to employee turnover.
+- Research & Development department has the highest employee attrition.
+- Laboratory Technicians experience the highest attrition among job roles.
+- Overtime is associated with increased employee attrition.
+- Employees with lower monthly income are more likely to leave.
+- Younger employees show higher attrition than older employees.
+- Work-life balance and job satisfaction influence employee retention.
 
 ---
 
-# Business Recommendations
+## Future Scope
 
-- Improve retention strategies for high-attrition departments.
-- Reduce excessive overtime.
-- Enhance career development opportunities.
-- Review employee compensation policies.
-- Improve work-life balance initiatives.
-- Strengthen employee engagement programs.
-- Conduct regular employee satisfaction surveys.
-- Use HR analytics dashboards for continuous monitoring.
+- Build a machine learning model to predict employee attrition.
+- Develop a real-time HR analytics dashboard.
+- Include additional HR performance metrics for deeper analysis.
 
 ---
 
-# Future Enhancements
+## Author
 
-- Develop machine learning models to predict employee attrition.
-- Build a real-time HR analytics dashboard.
-- Integrate additional HR metrics and performance indicators.
-- Deploy the dashboard using cloud-based BI platforms.
+Geeth Gagan Kumar Reddy Gujji
 
----
-
-# Author
-
-**Geeth Gagan Kumar Reddy Gujji**
-
-B.Tech – Computer Science & Engineering (Artificial Intelligence)
+B.Tech CSE (Artificial Intelligence)
 
 Amrita Vishwa Vidyapeetham, Chennai
-
----
-
-# License
-
-This project is intended for educational and portfolio purpose.
