@@ -2,72 +2,50 @@
 
 ## Overview
 
-The Employee Attrition Analysis project identifies key factors influencing employee turnover by analyzing HR data through exploratory data analysis, KPI analysis, and an interactive Tableau dashboard.
-
----
+This project looks at the key factors behind employee attrition in the IBM HR dataset, using EDA, KPI analysis, and a Tableau dashboard to find where retention issues are coming from.
 
 ## Key Business Insights
 
-### 1. Research & Development Department Experiences the Highest Attrition
+**1. Research & Development has the highest attrition count**
 
-The Research & Development department recorded the highest number of employees leaving the organization. This indicates that retention efforts should be prioritized within this department.
+R&D recorded the highest number of employees leaving, with 961 employees in the department it also happens to be the largest one, so the attrition count being high here is expected. Retention efforts should still be prioritized here since it affects the most people overall.
 
----
+**2. Laboratory Technicians have the highest attrition among job roles**
 
-### 2. Laboratory Technicians Have the Highest Attrition
+Among all job roles, Laboratory Technicians has highest attrition with 62 employees leaving, more than any other role in the company. This suggest that employees in this role may be facing issues related to workload or job satisfaction.
 
-Among all job roles, Laboratory Technicians experienced the highest employee attrition. This suggests that employees in this role may face challenges related to workload, career growth, or job satisfaction.
+**3. Overtime employees are far more likely to leave**
 
----
+Employees working overtime showed attrition of **30.53%**, compared to just **10.44%** for employees who dont work overtime — almost 3 times higher. This is one of the strongest patterns in the whole dataset and overtime looks like a major driver of turnover.
 
-### 3. Employees Working Overtime Are More Likely to Leave
+**4. Younger employees leave more frequently**
 
-Employees who frequently work overtime show significantly higher attrition compared to those who do not. Excessive workload appears to be an important contributor to employee turnover.
+Employees who left the company had a median age of **32**, compared to **36** for employees who stayed. Younger employees may be leaving for better opportunities or faster career growth elsewhere.
 
----
+**5. Employees with lower monthly income show higher attrition**
 
-### 4. Younger Employees Leave More Frequently
+Employees who left had a median monthly income of **3202**, while employees who stayed had a median of **5204**. Compensation seems to play a important role in whether employees decide to stay.
 
-Employees in the younger age group have higher attrition than middle-aged and older employees. This may indicate that younger professionals actively seek better career opportunities and faster growth.
+**6. Job Level and Income are closely linked, and lower levels see more attrition**
 
----
+Job Level and Monthly Income showed a correlation of **0.95** on the heatmap, meaning employees at lower job levels are also the ones earning less — and these are the employees leaving the most. senior/higher level employees tend to stay longer.
 
-### 5. Employees with Lower Monthly Income Have Higher Attrition
+**7. Business travel influences attrition**
 
-The analysis shows that employees with relatively lower salaries are more likely to leave the organization. Compensation plays an important role in employee retention.
+Employees who travel frequently for buisness showed attrition of **24.91%**, compared to **14.96%** for employees who travel rarely and just **8%** for employees with no travel. Frequent travel might be affecting work-life balance for these employees.
 
----
+**8. Job satisfaction affects retention**
 
-### 6. Lower Job Levels Experience Higher Attrition
+Employees with the lowest job satisfaction score (1) showed **22.84%** attrition, while employees with the highest score (4) showed only **11.33%**. So satisfaction level clearly matters, though the drop isnt perfectly linear across the middle scores.
 
-Employees in Job Level 1 contribute the highest number of attrition cases, while higher job levels generally show lower attrition. Senior employees tend to remain longer within the organization.
+**9. Environment satisfaction affects attrition too**
 
----
+Employees reporting the lowest environment satisfaction (score 1) had **25.35%** attrition, almost double the rate of employees with higher satisfaction scores (around 13-15%).
 
-### 7. Business Travel Influences Employee Turnover
+**10. Work-life balance plays a role**
 
-Employees who travel frequently for business exhibit higher attrition compared to employees who rarely travel. Frequent travel may affect work-life balance and employee satisfaction.
-
----
-
-### 8. Job Satisfaction Influences Employee Retention
-
-Employees with lower job satisfaction tend to leave more often, while employees with higher job satisfaction generally remain with the organization.
-
----
-
-### 9. Environment Satisfaction Affects Attrition
-
-Employees reporting lower satisfaction with their work environment show comparatively higher attrition. A positive workplace environment contributes to employee retention.
-
----
-
-### 10. Work-Life Balance Plays an Important Role
-
-Employees reporting poor work-life balance are more likely to leave the organization. Maintaining a healthy balance between work and personal life improves employee retention.
-
----
+Employees reporting the poorest work-life balance (score 1) showed the highest attrition at **31.25%**, while employees with balanced scores (2-4) were all under 18%. This is one of the bigger gaps in the whole analysis.
 
 ## Summary
 
-The analysis indicates that employee attrition is influenced by multiple factors, including department, job role, overtime, salary, age, job level, business travel, job satisfaction, environment satisfaction, and work-life balance. Addressing these factors can significantly reduce employee turnover and improve organizational stability.
+so overall, attrition in this company seems to be driven mainly by overtime, income, job level, age, work-life balance and department size. employees who work overtime, earn less, or are in lower job levels are leaving at noticeably higher rates, and poor work-life balance and low satisfaction scores show some of the biggest gaps in the data. these insights were the base for the KPI's and the tableau dashboard.
