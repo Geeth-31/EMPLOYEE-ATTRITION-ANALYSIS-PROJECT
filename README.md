@@ -47,7 +47,6 @@ This project analyzes employee attrition using the IBM HR Employee Attrition dat
 Interactive Dashboard:
 
 https://public.tableau.com/app/profile/geeth.gagan.kumar.reddy.gujji/viz/EmployeeAttritionAnalysisDashboard_17838850554550/Dashboard1?publish=yes
-
 ---
 
 ## Key Findings

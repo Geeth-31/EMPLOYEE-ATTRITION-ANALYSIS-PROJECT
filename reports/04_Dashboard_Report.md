@@ -72,6 +72,13 @@ The dashboard highlights several important observations:
 - Job satisfaction, environment satisfaction, and work-life balance show noticeable relationships with employee attrition.
 
 ---
+## Tableau Dashboard
+
+Live Dashboard:
+
+https://public.tableau.com/app/profile/geeth.gagan.kumar.reddy.gujji/viz/EmployeeAttritionAnalysisDashboard_17838850554550/Dashboard1?publish=yes
+
+---
 
 ## Benefits of the Dashboard
 
