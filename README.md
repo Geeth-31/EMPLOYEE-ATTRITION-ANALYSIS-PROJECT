@@ -32,31 +32,59 @@ This project analyzes employee attrition using the IBM HR Employee Attrition dat
 
 ## Project Structure
 
-(keep the folder structure exactly as we wrote earlier)
-
+```
+EMPLOYEE-ATTRITION-ANALYSIS-PROJECT/
+│
+├── Data/
+│   ├── Raw/
+│   └── Processed/
+│
+├── Notebooks/
+│   ├── 01_Data_Cleaning.ipynb
+│   ├── 02_Exploratory_Data_Analysis.ipynb
+│   └── 03_KPI_Analysis.ipynb
+│
+├── Dashboard/
+│   ├── Employee_Attrition_Dashboard.twbx
+│   └── Dashboard_Preview.png
+│
+├── Reports/
+│   ├── 01_Dataset_Understanding.md
+│   ├── 02_Data_Cleaning_Report.md
+│   ├── 03_EDA_Report.md
+│   ├── 04_Dashboard_Report.md
+│   ├── 05_Business_Insights.md
+│   └── 06_Business_Recommendations.md
+│
+├── README.md
+├── LICENSE
+└── requirements.txt
+```
 ---
 
 ## Dashboard Preview
 
-![Dashboard Preview](Dashboard/Dashboard_Preview.png)
+![Dashboard Preview](dashboard/Dashboard_Preview.png)
 
 ---
 
 ## Tableau Dashboard
 
-Interactive Dashboard:
+**Live Dashboard:**
 
 https://public.tableau.com/app/profile/geeth.gagan.kumar.reddy.gujji/viz/EmployeeAttritionAnalysisDashboard_17838850554550/Dashboard1?publish=yes
+
+The dashboard allows users to interactively explore employee attrition by department, job role, overtime, work-life balance, job satisfaction, and other HR-related factors using dynamic filters.
+
 ---
 
 ## Key Findings
 
-- Research & Development department has the highest employee attrition.
-- Laboratory Technicians experience the highest attrition among job roles.
-- Overtime is associated with increased employee attrition.
-- Employees with lower monthly income are more likely to leave.
-- Younger employees show higher attrition than older employees.
-- Work-life balance and job satisfaction influence employee retention.
+- Sales department recorded the highest attrition rate (20.63%) among all departments.
+- Sales Representatives showed the highest attrition rate (39.76%) among all job roles.
+- Employees working overtime experienced nearly three times higher attrition than employees who did not work overtime.
+- Employees with lower monthly income and fewer years of experience were more likely to leave the organization.
+- Lower work-life balance, job satisfaction, and environment satisfaction were associated with higher employee attrition.
 
 ---
 

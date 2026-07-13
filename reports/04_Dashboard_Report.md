@@ -62,8 +62,8 @@ These filters update all visualizations simultaneously, allowing users to explor
 
 The dashboard highlights several important observations:
 
-- Research & Development department records the highest employee attrition.
-- Laboratory Technician is the job role with the highest number of employees leaving.
+- Although Research & Development recorded the highest number of employees leaving, the Sales department showed the highest attrition rate (20.63%), making it the highest-risk department.
+- Sales Representatives recorded the highest attrition rate (39.76%) among all job roles, indicating that this role faces the greatest employee turnover relative to its size.
 - Employees who frequently work overtime show higher attrition.
 - Employees with lower monthly income are more likely to leave the organization.
 - Younger employees exhibit higher attrition compared to older employees.
