@@ -6,13 +6,13 @@ Based on the insights obtained from the Employee Attrition Analysis, the followi
 
 ## Recommendations
 
-**1. Focus retention efforts on Research & Development**
+**1. Focus retention efforts on the Sales department**
 
-Since R&D has the highest attrition count (largest department with 961 employees), retention programs should be prioritized here first, since improving retention in this department will affect the most employees overall.
+The Sales department recorded the highest attrition rate (**20.63%**), making it the highest-risk department. Although Research & Development had more employees leaving overall, this was mainly because it has the largest workforce. Retention strategies should therefore prioritize Sales while continuing to monitor R&D because of its larger employee base.
 
-**2. Improve retention for Laboratory Technicians**
+**2. Prioritize retention for Sales Representatives**
 
-Laboratory Technicians had the highest attrition among all job roles (62 employees left, more than any other role). Conducting surveys with this group specifically could help identify if its workload, growth opportunities, or something else driving them to leave.
+Sales Representatives showed the highest attrition rate (**39.76%**) among all job roles. Conducting role-specific surveys, reviewing workloads, improving incentives, and providing better career growth opportunities could help reduce turnover in this group.
 
 **3. Reduce excessive overtime**
 

@@ -87,8 +87,9 @@ The following relationships were analyzed:
 __Observations__
 
 - I have found that Employees working overtime shows comparitively higher attrition than employees who did not work overtime.
-- Research & Development recorded the highest attrition count because it also had the largest number of employees.
-- Among all job roles, Laboratory Technicians has highest attrition.
+- Research & Development recorded the highest number of employees leaving, but the Sales department showed the highest attrition rate (20.63%), indicating a greater proportion of employees left from Sales.
+- When I compared the attrition rates instead of raw counts, the Sales department recorded the highest attrition rate (**20.63%**), followed by Human Resources (**19.05%**) and Research & Development (**13.84%**).
+- Sales Representatives showed the highest attrition rate (39.76%) among all job roles, while Laboratory Technicians recorded the highest number of employees leaving.
 - The employees who are Single showed comparatively higher attrition than married and divorced employees.
 - Employees with lower monthly income and fewer years of work experience showed comparatively higher attrition.
 - Employees who are Younger showed higher attrition than older employees.

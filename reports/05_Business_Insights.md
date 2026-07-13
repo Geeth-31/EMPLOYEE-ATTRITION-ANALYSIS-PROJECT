@@ -6,13 +6,13 @@ This project looks at the key factors behind employee attrition in the IBM HR da
 
 ## Key Business Insights
 
-**1. Research & Development has the highest attrition count**
+**1. Sales department has the highest attrition rate**
 
-R&D recorded the highest number of employees leaving, with 961 employees in the department it also happens to be the largest one, so the attrition count being high here is expected. Retention efforts should still be prioritized here since it affects the most people overall.
+Although Research & Development recorded the highest number of employees leaving because it is the largest department, the Sales department actually showed the highest attrition rate at **20.63%**, followed by Human Resources at **19.05%**. This indicates employees in Sales are leaving at a higher proportion and should be considered a higher-risk department.
 
-**2. Laboratory Technicians have the highest attrition among job roles**
+**2. Sales Representatives have the highest attrition rate among job roles**
 
-Among all job roles, Laboratory Technicians has highest attrition with 62 employees leaving, more than any other role in the company. This suggest that employees in this role may be facing issues related to workload or job satisfaction.
+Sales Representatives recorded the highest attrition rate at **39.76%**, even though Laboratory Technicians had the highest number of employees leaving. This suggests Sales Representatives are at the greatest risk of attrition relative to the size of that role.
 
 **3. Overtime employees are far more likely to leave**
 
