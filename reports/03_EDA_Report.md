@@ -2,13 +2,12 @@
 
 ## Objective
 
-The objective of exploratory data analysis (EDA) is to understand the characteristics of the cleaned IBM HR Employee Attrition dataset and identify patterns in employee attrition. To examine relationships between variables and generate insights that support business decision-making and dashboard development.
+The objective of exploratory data analysis (EDA) is to understand the cleaned IBM HR Employee Attrition dataset by analyzing the distribution of all variables and their relationship with employee's attrition. 
 
----
 
 ## Dataset Overview
 
-The exploratory analysis was performed on the cleaned dataset containing:
+I performed the exploratory data analysis on the cleaned dataset that contains:
 
 - Number of Records: **1470**
 - Number of Features: **31**
@@ -21,20 +20,21 @@ This analysis includes univariate analysis, bivariate analysis, correlation anal
 
 ### 1. Target Variable Analysis
 
-The distribution of the target variable (Attrition) was examined to understand employee retention.
+I first analyzed the distribution of the target variable (Attrition) to understand employee retention.
 
-**Observation**
 
-- Employees who stayed in the organization were significantly higher than employees who left.
-- Approximately **83.88%** of employees stayed, while **16.12%** left the organization.
+__Observation__
 
----
+- Most of the employees were retained by company.
+- Around **83.88%** of employees stayed, while **16.12%** left the organization.
+- As the dataset is imbalanced, attrition-related comparisons were explained carefully during the analysis.
+
 
 ### 2. Univariate Analysis
 
-Univariate analysis was performed to study the distribution of individual variables.
+I analyzed each variable individually to understand its distribution 
 
-The following variables were analyzed:
+The following important variables were analyzed individually:
 
 - Age
 - Monthly Income
@@ -52,20 +52,19 @@ The following variables were analyzed:
 - Environment Satisfaction
 - Work-Life Balance
 
-**Key Observations**
+__Observations__
 
-- The majority of employees belonged to the Research & Development department.
-- Sales Executive was the most common job role.
-- Most employees did not work overtime.
-- Most employees travelled rarely for business.
-- Employee ages were concentrated more in the younger and middle-age groups.
-- Monthly income and total working years showed right-skewed distributions.
+- i have observed that Most of the employees belongs to the Research & Development department.
+- The most common job role in dataset was Sales Executive.
+- Many employees didn't work overtime.
+- Many employee travelled under Travel_Rarely category.
+- Employee age was concentrated mostly in between 30 and 40 years.
+- Monthly Income and Total Working Years showed right-skewed distributions because only a small number of employees had very high salaries or long work experience.
 
----
 
 ### 3. Bivariate Analysis
 
-Bivariate analysis was performed to study the relationship between employee attrition and other variables.
+I compared employee attrition with all other variables to know which variales were associated with employees leaving the company.
 
 The following relationships were analyzed:
 
@@ -85,42 +84,35 @@ The following relationships were analyzed:
 - Total Working Years vs Attrition
 - Distance From Home vs Attrition
 
-**Key Observations**
+__Observations__
 
-- Employees working overtime showed comparatively higher attrition.
-- Research & Development recorded the highest attrition count among departments.
-- Laboratory Technician recorded the highest attrition among job roles.
-- Single employees showed comparatively higher attrition than married and divorced employees.
-- Employees who travelled rarely recorded higher attrition than other travel categories.
-- Employees with lower monthly income and fewer total working years showed comparatively higher attrition.
-- Younger employees and employees living farther from the workplace showed comparatively higher attrition.
+- I have found that Employees working overtime shows comparitively higher attrition than employees who did not work overtime.
+- Research & Development recorded the highest attrition count because it also had the largest number of employees.
+- Among all job roles, Laboratory Technicians has highest attrition.
+- The employees who are Single showed comparatively higher attrition than married and divorced employees.
+- Employees with lower monthly income and fewer years of work experience showed comparatively higher attrition.
+- Employees who are Younger showed higher attrition than older employees.
 
----
 
 ### 4. Correlation Analysis
 
-A correlation heatmap was generated to identify relationships among numerical variables.
+I generated a  correlation heatmap to identify the relationships among all the numerical variables present in the dataset.
 
-**Observation**
-
-- Experience-related variables showed strong positive correlations.
-- Most other numerical variables exhibited weak to moderate correlations.
-- No unexpected or abnormal relationships were observed.
-
----
+- I have observed that columns like Total Working Years, Job Level, Monthly Income, and Years at Company have shown positive correlations because employees with more experience generally occupied higher job levels and earned higher salaries. 
+- Job Level and Monthly Income specifically showed the strongest correlation on the heatmap around **0.95** with Total Working Years vs Job Level and Total Working Years vs Monthly Income both around **0.77-0.78**.
+- Most of the other numerical variables showed weak to moderate correlations.
+- There is no unusual relationships observed among the numerical variables.
 
 ### 5. Outlier Analysis
 
-Box plots were used to identify potential outliers in numerical variables.
+I used Box plots to identify possible outliers in numerical variables.
 
-**Observation**
-
-- Significant outliers were observed in Monthly Income and Total Working Years.
-- These outliers represent employees with exceptionally high salaries or extensive work experience and were considered valid observations.
+- I have observed that there are Significant outliers in Monthly Income and Total Working Years.
 - No significant outliers were observed in Age or Distance From Home.
 
 ---
 
 ## Summary
 
-The exploratory data analysis identified many factors that are associated with employee attrition. Employees working overtime, employees with lower income, fewer years of work experience, and younger employees showed comparatively higher attrition. Research & Development was the largest department and also recorded the highest attrition count. Correlation analysis highlighted strong relationships among experience-related variables, while outlier analysis confirmed the presence of valid high-value observations in salary and experience. These findings provide the base for KPI analysis, Tableau dashboard development, and business recommendations.
+The EDA helped me in understanding the attrition pattern and variables that affect it. Overtime, monthly income, work experience, job role, and age all showed some relation with attrition, overtime being the strongest one from what i observed. The analysis also confirmed me that numerical data is  fine to use as it is while the categorical variables provided useful information for dashboard development.
+
